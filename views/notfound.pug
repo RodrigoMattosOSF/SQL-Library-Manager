@@ -1,0 +1,9 @@
+extends layout.pug
+
+block content 
+    div
+      h1 #{error.header}
+      p #{error.message}
+      br
+      p
+        a(href="/", class="button") Home

@@ -1,0 +1,35 @@
+{
+  "name": "sql-library-manager",
+  "version": "1.0.0",
+  "description": "Unit 8 - SQL Library Manager",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoMattosOSF/SQL-Library-Manager.git"
+  },
+  "keywords": [
+    "SQL",
+    "Sequelize",
+    "Express",
+    "Pug",
+    "JS"
+  ],
+  "author": "Rodrigo Mattos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodrigoMattosOSF/SQL-Library-Manager/issues"
+  },
+  "homepage": "https://github.com/RodrigoMattosOSF/SQL-Library-Manager#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "pug": "^2.0.3",
+    "sequelize": "^4.43.0",
+    "sequelize-cli": "^5.4.0",
+    "sqlite3": "^4.0.6"
+  }
+}
